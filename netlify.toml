@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements.txt"
+  command = "echo 'Streamlit app - Use Render or Heroku for deployment'"
   publish = "."
 
 [build.environment]
@@ -7,8 +7,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/streamlit-app"
+  to = "/index.html"
   status = 200
-
-[build.processing]
-  skip_processing = false
